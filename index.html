@@ -8,7 +8,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #fffef0;
+      background-color: #9c5307;
       padding: 20px;
       color: #333;
       margin: 0;
@@ -31,14 +31,25 @@
 
     h1 {
       font-size: 2.2em;
-      color: #b30000;
+      color: #ffffff;
       margin-bottom: 0;
     }
 
-    h2 {
+    /* Marquee box style for h2 text */
+    .h2-box {
+      border: 2px solid maroon;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: #ffffff;
+      margin: 20px auto;
+      width: fit-content;
+      max-width: 95%;
+    }
+
+    .h2-box marquee {
+      color: #0b273b;
       font-size: 1.5em;
-      color: #6a0dad;
-      margin-top: 5px;
+      font-weight: bold;
     }
 
     a {
@@ -46,7 +57,7 @@
       margin: 20px auto;
       padding: 15px;
       max-width: 90%;
-      text-align: center;
+      text-align: left;
       font-size: 1.2em;
       background-color: #e8f0fe;
       color: #0066cc;
@@ -65,7 +76,7 @@
         font-size: 1.6em;
       }
 
-      h2 {
+      .h2-box marquee {
         font-size: 1.2em;
       }
 
@@ -89,23 +100,35 @@
       <img src="logo.jpg" alt="Shree Guru Avadooth">
     </div>
 
-    <!-- Titles -->
-    <div style="border: 2px solid maroon; padding: 15px; width: fit-content; margin: auto; border-radius: 10px; background-color: #fff0f0;">
-  <h3 style="color: maroon; text-align: center; margin: 0;">
-    ||శ్రీ భక్తకార్యకల్పదృమ గురుసార్వభౌమ శ్రీమద్రాజాధిరాజ యోగీమహారాజ త్రిభువనానంద అద్వైత అభేద నిరంజన నిర్గుణ నిరాలంబ పరిపూర్ణ సదోదిత సకలమతస్థాపిత శ్రీ సద్గురు మాణికప్రభు మహారాజ కీ జయ || 
-  </h3>
+    <!-- Sloka Marquee -->
+    <div style="border: 2px solid maroon; padding: 15px; width: fit-content; margin: auto; border-radius: 10px; background-color: #ffffff;">
+      <marquee direction="left" scrollamount="4" style="color: maroon; text-align: center; font-weight: bold;">
+        || శ్రీ భక్తకార్యకల్పదృమ గురుసార్వభౌమ శ్రీమద్రాజాధిరాజ యోగీమహారాజ త్రిభువనానంద అద్వైత అభేద నిరంజన నిర్గుణ నిరాలంబ పరిపూర్ణ సదోదిత 
+
+సకలమతస్థాపిత శ్రీ సద్గురు మాణికప్రభు మహారాజ కీ జయ ||
+      </marquee>
+    </div>
+
+    <!-- Main Heading -->
     <h1>JAI GURU MANIK</h1>
-    <h2>TELUGU BHAJANALU</h2>
+
+    <!-- H2 Scrolling Box -->
+    <div class="h2-box">
+      <marquee direction="left" scrollamount="5">
+        Click Link for "TELUGU BHAJANALU" Given below
+      </marquee>
+    </div>
 
     <!-- Links -->
-        <a href="https://manikprabhubhajan.github.io/sampradayakbhajan/" target="_blank">
-      🌸 1. శ్రీ మాణిక ప్రభువుల అష్టకములు, మంగళ ఆరతులు,సప్తవారముల భజనలు 
+    <a href="https://manikprabhubhajan.github.io/sampradayakbhajan/" target="_blank">
+      🌸 1. శ్రీ మాణిక ప్రభువుల అష్టకములు, మంగళ ఆరతులు, సప్తవారముల భజనలు 
     </a>
 
     <a href="https://manikprabhubhajan.github.io/Telugudhindi/" target="_blank">
       🌼 2. శ్రీ మాణిక ప్రభువుల దిండీ పదములు 
     </a>
-<a href="https://manikprabhubhajan.github.io/TeluguPadyamala/" target="_blank">
+
+    <a href="https://manikprabhubhajan.github.io/TeluguPadyamala/" target="_blank">
       🌸 3. తెలుగు పద్యమాల 
     </a>
 
